@@ -1,0 +1,259 @@
+[
+  {
+    "_document_id": "r-cir_8GaDdawVJsuSpH-A",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org_credential_authorization.grant",
+    "@timestamp": 1641233352828,
+    "created_at": 1641233352828
+  },
+  {
+    "_document_id": "xNfa4Lc9YfMtSIXa97XCGQ",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org_credential_authorization.grant",
+    "@timestamp": 1641227119518,
+    "created_at": 1641227119518
+  },
+  {
+    "_document_id": "5zGdY8rl9sCyxruhX3ETsg",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org_credential_authorization.grant",
+    "@timestamp": 1640180042812,
+    "created_at": 1640180042812
+  },
+  {
+    "_document_id": "FrPd-CJJN_EaimLRr6kBJw",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.set_actions_fork_pr_approvals_policy",
+    "@timestamp": 1638388558648,
+    "created_at": 1638388558648
+  },
+  {
+    "_document_id": "3szyhFv2rxZEVQdvtlrnwA",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.update_actions_settings",
+    "@timestamp": 1638388479284,
+    "created_at": 1638388479284
+  },
+  {
+    "_document_id": "x7oJOrQp-i8jMvAywCy3Yg",
+    "actor": "a-britten",
+    "org": "LedcorIS",
+    "action": "org.update_actions_settings",
+    "@timestamp": 1638388470322,
+    "created_at": 1638388470322
+  },
+  {
+    "_document_id": "ZZ4IheYaWh3MdAa_imZTLA",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.update_actions_settings",
+    "@timestamp": 1638388461016,
+    "created_at": 1638388461016
+  },
+  {
+    "_document_id": "arPpsSaWLUhNuoEUPbSDBw",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.update_actions_settings",
+    "@timestamp": 1638388455288,
+    "created_at": 1638388455288
+  },
+  {
+    "_document_id": "CJFLdnXCB7feUFqcOsZvhg",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.update_actions_settings",
+    "@timestamp": 1638388452879,
+    "created_at": 1638388452879
+  },
+  {
+    "_document_id": "R5sJvMfv65AagqAlvuymiA",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.update_actions_settings",
+    "@timestamp": 1638388408504,
+    "created_at": 1638388408504
+  },
+  {
+    "_document_id": "WS7XcP3zRZOkI7i2Beq3Cw",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "team_discussions.disable",
+    "@timestamp": 1638388338689,
+    "created_at": 1638388338689
+  },
+  {
+    "_document_id": "nKzP3z_Hhtv6cXuYz3JVTQ",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "repository_projects_change.disable",
+    "@timestamp": 1638388182436,
+    "created_at": 1638388182436
+  },
+  {
+    "_document_id": "hHqxxLCWWiWjUqeEui6c_g",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "organization_projects_change.disable",
+    "@timestamp": 1638388182391,
+    "created_at": 1638388182391
+  },
+  {
+    "_document_id": "LmVZQVGyr7ZtUlUa_5VL7Q",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "dependabot_alerts_new_repos.enable",
+    "@timestamp": 1638387489840,
+    "created_at": 1638387489840
+  },
+  {
+    "_document_id": "qQqXpQhFpredDm1QKShcJQ",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "dependabot_alerts_new_repos.disable",
+    "@timestamp": 1638387488929,
+    "created_at": 1638387488929
+  },
+  {
+    "_document_id": "teit2NOPxvL--BQnM5IeoQ",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "dependabot_security_updates_new_repos.enable",
+    "@timestamp": 1638387427688,
+    "created_at": 1638387427688
+  },
+  {
+    "_document_id": "Qgb1Ktqfj_Yvwjj8XqIIxQ",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "dependabot_alerts_new_repos.enable",
+    "@timestamp": 1638387426790,
+    "created_at": 1638387426790
+  },
+  {
+    "_document_id": "Be4thrdEpZeAv2hwdx0EhQ",
+    "actor": "a-britten",
+    "user": "a-britten",
+    "org": "LedcorIS",
+    "action": "dependency_graph_new_repos.disable",
+    "@timestamp": 1638387423978,
+    "created_at": 1638387423978
+  },
+  {
+    "_document_id": "EJaAkbCn1Y61-HxICUE9-A",
+    "actor": "a-britten",
+    "user": "a-britten",
+    "org": "LedcorIS",
+    "action": "dependency_graph_new_repos.enable",
+    "@timestamp": 1638387423375,
+    "created_at": 1638387423375
+  },
+  {
+    "_document_id": "UF9g0prqnsSR3g7WroXNxQ",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "dependency_graph_new_repos.enable",
+    "@timestamp": 1638387422512,
+    "created_at": 1638387422512
+  },
+  {
+    "_document_id": "BCSsjXy0hHsljtCbBZnKdg",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.enable_two_factor_requirement",
+    "@timestamp": 1638387104987,
+    "created_at": 1638387104987
+  },
+  {
+    "_document_id": "VMN0euocCOLWkSCrmfqqPQ",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "user": "michaelshire",
+    "action": "org.enable_member_team_creation_permission",
+    "@timestamp": 1638386721370,
+    "created_at": 1638386721370
+  },
+  {
+    "_document_id": "tEqrMgTFvsV1dnbwg_pMLA",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "issues.deletes_enabled",
+    "@timestamp": 1638386592997,
+    "created_at": 1638386592997
+  },
+  {
+    "_document_id": "qO5oAL6MCsrLDvToJ4YUTw",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "repository_visibility_change.disable",
+    "@timestamp": 1638386588764,
+    "created_at": 1638386588764
+  },
+  {
+    "_document_id": "4Y-KpxWzF7sIAXgSCM5EQQ",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "members_can_delete_repos.disable",
+    "@timestamp": 1638386584277,
+    "created_at": 1638386584277
+  },
+  {
+    "_document_id": "lEVtCSad9UfC020YSYTmdg",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "members_can_create_private_pages.disable",
+    "@timestamp": 1638386480994,
+    "created_at": 1638386480994
+  },
+  {
+    "_document_id": "vjjLMjVsbyrSu4-XWRag3g",
+    "actor": "michaelshire",
+    "user": "michaelshire",
+    "org": "LedcorIS",
+    "action": "members_can_create_public_pages.disable",
+    "@timestamp": 1638386480890,
+    "created_at": 1638386480890
+  },
+  {
+    "_document_id": "1AXFUtFOVtEUWRsc1lv-3A",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.update_member_repository_invitation_permission",
+    "@timestamp": 1638386256730,
+    "created_at": 1638386256730
+  },
+  {
+    "_document_id": "F1-KHiAP8_0WPrzKzFaZFw",
+    "actor": "michaelshire",
+    "visibility": "public_private",
+    "org": "LedcorIS",
+    "action": "org.update_member_repository_creation_permission",
+    "@timestamp": 1638386132619,
+    "created_at": 1638386132619
+  },
+  {
+    "_document_id": "JlVPD0B8oDjVuy9erwC0fA",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "profile_picture.update",
+    "@timestamp": 1638367270818,
+    "created_at": 1638367270818
+  }
+]
