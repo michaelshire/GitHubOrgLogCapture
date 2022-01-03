@@ -26,7 +26,7 @@ jobs:
       # Set yesterday
       - name: Get yesterday
         id: yesterday
-        run: echo "::set-output name=yesterday::$(date 'yesterday' +'%Y-%m-%d')"
+        run: echo "::set-output name=yesterday::$(date --date='yesterday' +'%Y-%m-%d')"
       
       # Runs a single command using the runners shell
       - name: Run a one-line script
