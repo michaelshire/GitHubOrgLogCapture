@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Log Capture
 
 # Controls when the workflow will run
 on:
@@ -30,7 +30,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: 'curl -H "Authorization: token ${{ LEDCORIS_TOKEN }}" https://api.github.com/orgs/LedcorIS/audit-log >> audit-${{ steps.date.outputs.date }}.log'
+        run: 'curl -H "Authorization: token ${{ secrets.LEDCORIS_TOKEN }}" https://api.github.com/orgs/LedcorIS/audit-log >> audit-${{ steps.date.outputs.date }}.log'
 
       # Runs a set of commands using the runners shell
       - name: Adds the new log file to the repo
