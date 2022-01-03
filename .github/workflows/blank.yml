@@ -36,6 +36,6 @@ jobs:
       - name: Adds the new log file to the repo
         run: git add .
       - name: Commit change to repo
-        run: git commit -am "Adding logs for ${{ steps.date.outputs.date }}"
+        run: git -c user.email="LedcorIS@ledcor.com" -c user.name="Ledcor Automation" commit -am "Adding logs for ${{ steps.date.outputs.date }}"
       - name: Push change to repo
         run: git push origin main
