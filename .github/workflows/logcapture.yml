@@ -1,5 +1,4 @@
-# This worflow will call the GitHub API to download the log files and commit/push the new file to this repo.
-# Modify the workflow so that it runs with appropriate token
+# This worflow will call the GitHub API to download the previous day audit log and commit/push the new file to this repo.
 
 name: Log Capture
 
@@ -23,19 +22,19 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Set yesterday
-      - name: Get yesterday
+      # Define yesterday
+      - name: Define yesterday
         id: yesterday
         run: echo "::set-output name=yesterday::$(date --date='yesterday' +'%Y-%m-%d')"
       
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: 'curl -H "Authorization: token ${{ secrets.LEDCORIS_TOKEN }}" https://api.github.com/orgs/LedcorIS/audit-log?phrase=created:${{ steps.yesterday.outputs.yesterday }} > audit-${{ steps.yesterday.outputs.yesterday }}.log'
+      # Curl the audit log filtered to yesterday to a dated filename
+      - name: Get the audit log
+        run: 'curl -H "Authorization: token ${{ secrets.PAT_TOKEN }}" https://api.github.com/orgs/${{ secrets.ORG_NAME }}/audit-log?phrase=created:${{ steps.yesterday.outputs.yesterday }} > audit-${{ steps.yesterday.outputs.yesterday }}.log'
 
-      # Runs a set of commands using the runners shell
+      # Add, commit, then push the new file to the repo
       - name: Adds the new log file to the repo
         run: git add .
       - name: Commit change to repo
-        run: git -c user.email="LedcorIS@ledcor.com" -c user.name="Ledcor Automation" commit -am "Adding logs for ${{ steps.yesterday.outputs.yesterday }}"
+        run: git -c user.email="${{ secrets.EMAIL }}" -c user.name="${{ secrets.USERNAME }}" commit -am "Adding logs for ${{ steps.yesterday.outputs.yesterday }}"
       - name: Push change to repo
         run: git push origin main
