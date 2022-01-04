@@ -30,7 +30,7 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: 'curl -H "Authorization: token ${{ secrets.LEDCORIS_TOKEN }}" https://api.github.com/orgs/LedcorIS/audit-log?phrase=created:${{ steps.yesterday.outputs.yesterday }} >> audit-${{ steps.yesterday.outputs.yesterday }}.log'
+        run: 'curl -H "Authorization: token ${{ secrets.LEDCORIS_TOKEN }}" https://api.github.com/orgs/LedcorIS/audit-log?phrase=created:${{ steps.yesterday.outputs.yesterday }} > audit-${{ steps.yesterday.outputs.yesterday }}.log'
 
       # Runs a set of commands using the runners shell
       - name: Adds the new log file to the repo
