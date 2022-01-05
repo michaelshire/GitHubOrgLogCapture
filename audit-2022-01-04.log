@@ -1,0 +1,18 @@
+[
+  {
+    "_document_id": "mwe0xjKAqpFhFeyY0P8P1g",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org_credential_authorization.grant",
+    "@timestamp": 1641325073354,
+    "created_at": 1641325073354
+  },
+  {
+    "_document_id": "gqsLvAUeHhadzqUdO-Tn7w",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org_credential_authorization.grant",
+    "@timestamp": 1641307992939,
+    "created_at": 1641307992939
+  }
+]
