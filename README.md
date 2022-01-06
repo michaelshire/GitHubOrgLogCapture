@@ -11,3 +11,5 @@ The solution requires the `logcapture.yml` file to be located in `.github/workfl
 `USERNAME` - the username used during a commit of the newly created log.  I suggest you reference the username where the PAT exists.
 
 `EMAIL` - the email address used during a commit of the newly created log.
+
+For me, this is an interim solution until GitHub Log Streaming becomes generally available.
