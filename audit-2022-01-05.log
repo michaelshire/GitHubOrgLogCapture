@@ -1,0 +1,10 @@
+[
+  {
+    "_document_id": "YoDg-TyHTMTyTV9zpLrkfQ",
+    "actor": "michaelshire",
+    "org": "LedcorIS",
+    "action": "org.audit_log_export",
+    "@timestamp": 1641416321474,
+    "created_at": 1641416321474
+  }
+]
