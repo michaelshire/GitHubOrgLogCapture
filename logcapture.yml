@@ -25,7 +25,7 @@ jobs:
       # Define yesterday
       - name: Define yesterday
         id: yesterday
-        run: echo "::set-output name=yesterday::$(date --date='yesterday' +'%Y-%m-%d')"
+        run: echo "yesterdaynew=$(date --date='yesterday' +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       
       # Curl the audit log filtered to yesterday to a dated filename
       - name: Get the audit log
