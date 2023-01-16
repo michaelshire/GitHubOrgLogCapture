@@ -1,9 +1,3 @@
-# Note:
-
-There is one deprecation notice for this workflow.  Resolution is in progress.
-
-https://github.blog/changelog/2022-09-22-github-actions-all-actions-will-begin-running-on-node16-instead-of-node12/
-
 # logs
 
 This is a  GitHub Action that will capture an Organization's audit logs and store them in the repository where the Action is running.  The schedule is "Daily at 8am".  If you increase to multiple times a day, you will need to modify the written audit log filename to be more fine grained.
