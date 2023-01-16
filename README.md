@@ -1,8 +1,6 @@
 # Note:
 
-There are two deprecation notices for this workflow.  Resolution is in progress.
-
-https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+There is one deprecation notice for this workflow.  Resolution is in progress.
 
 https://github.blog/changelog/2022-09-22-github-actions-all-actions-will-begin-running-on-node16-instead-of-node12/
 
