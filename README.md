@@ -4,7 +4,7 @@ This is a  GitHub Action that will capture an Organization's audit logs and stor
 
 The solution requires the `logcapture.yml` file to be located in `.github/workflows/` folder and the following four secrets created:
 
-`PAT_TOKEN` - the Personal Access Token used to connect to the Org.  It only requires the security scope "read:org".
+`PAT_TOKEN` - the Personal Access Token used to connect to the Org.  It only requires the security scope "audit_log".
 
 `ORG_NAME` - the name of the Organization to run the action against.
 
