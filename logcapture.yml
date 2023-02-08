@@ -22,7 +22,7 @@ jobs:
       # Test the API using TOKEN and fail immediately if not http 200
       - name: Test the TOKEN and API
         run: |
-          if [ $(curl --silent -H "Authorization: token ${{ secrets.PAT_TOKEN }}" https://api.github.com/orgs/${{ secrets.ORG_NAME }}/audit-log --write-out "%{http_code}" --output /dev/null) -ne 200 ]; then echo "HTTP Response NOT 200, Check CURL and TOKEN"; exit 1; else echo "HTTP Response 200 received assumed PAT and CURL are good"; fi
+          if [ $(curl --silent -H "Authorization: token ${{ secrets.PAT_TOKEN }}" "https://api.github.com/orgs/${{ secrets.ORG_NAME }}/audit-log" --write-out "%{http_code}" --output /dev/null) -ne 200 ]; then echo "HTTP Response NOT 200, Check CURL and TOKEN"; exit 1; else echo "HTTP Response 200 received assumed PAT and CURL are good"; fi
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
@@ -34,7 +34,7 @@ jobs:
       
       # Curl the audit log filtered to yesterday to a dated filename
       - name: Get the audit log
-        run: 'curl -H "Authorization: token ${{ secrets.PAT_TOKEN }}" https://api.github.com/orgs/${{ secrets.ORG_NAME }}/audit-log?phrase=created:${{ steps.yesterday.outputs.yesterday }} > audit-${{ steps.yesterday.outputs.yesterday }}.log'
+        run: 'curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${{ secrets.PAT_TOKEN }}" "https://api.github.com/orgs/${{ secrets.ORG_NAME }}/audit-log?include=all&phrase=created:${{ steps.yesterday.outputs.yesterday }}" > audit-${{ steps.yesterday.outputs.yesterday }}.log'
 
       # Add, commit, then push the new file to the repo
       - name: Adds the new log file to the repo
